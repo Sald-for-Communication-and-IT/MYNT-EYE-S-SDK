@@ -103,7 +103,6 @@ set(LINK_LIBS
   ${OpenCV_LIBS}
   mynteye
 )
-message(STATUS ${catkin_LIBRARIES})
 add_library(mynteye_wrapper src/wrapper_nodelet.cc)
 target_link_libraries(mynteye_wrapper ${LINK_LIBS})
 add_dependencies(mynteye_wrapper ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
