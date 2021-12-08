@@ -34,7 +34,7 @@ CLOSE_PAREN := )
 #
 # e.g. make [TARGET] VS_CODE=2017 BUILD_TYPE=Debug
 
-BUILD_TYPE ?= Release
+BUILD_TYPE ?= Debug
 
 # Host detection
 
